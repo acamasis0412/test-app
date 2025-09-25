@@ -196,3 +196,4 @@ ADMIN_AUTH_TOKEN variable is for admin tokens.
 
 Once set, all endpoints are now authorized to be used.
 
+Additionally, the email notification sent when an order is placed is being saved in storage/logs/laravel.log
