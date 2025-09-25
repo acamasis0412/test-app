@@ -184,3 +184,15 @@ This will run all unit and feature tests.
 ## Postman Collection
 
 A Postman collection with all defined API endpoints and example requests is provided separately. You can import this collection into Postman to easily test the API. The file is named postman_collection.json and is saved in the same directory as this README.
+
+## When Testing endpoints via postman
+
+All the default passwords for the existing users are 'password' (for both admin and customer).
+
+Once you login via the login endpoint(/api/login), copy the token from the response and assign it to the designated variables in the request:
+
+AUTH_TOKEN variable is for customer tokens.
+ADMIN_AUTH_TOKEN variable is for admin tokens.
+
+Once set, all endpoints are now authorized to be used.
+
